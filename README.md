@@ -1,6 +1,6 @@
-# Wixstro - Wix Astro Template
+# Luxe Lookbook - Astro Portfolio Template
 
-A modern, full-featured Wix Astro template built with React, TypeScript, and Tailwind CSS. This template provides a solid foundation for building dynamic, interactive websites with Wix's powerful ecosystem.
+A modern, full-featured portfolio template built with Astro, React, TypeScript, and Tailwind CSS. This template provides a solid foundation for building dynamic, interactive portfolio and showcase websites. **Now optimized for Vercel free tier deployment!**
 
 ## 🚀 Features
 
@@ -8,27 +8,26 @@ A modern, full-featured Wix Astro template built with React, TypeScript, and Tai
 - **React Integration** - Full React support with JSX components
 - **TypeScript** - Type-safe development experience
 - **Tailwind CSS** - Utility-first CSS framework with custom components
-- **Wix Integration** - Seamless integration with Wix services and APIs
 - **Modern UI Components** - Radix UI components with custom styling
-- **Authentication** - Built-in member authentication and protected routes
-- **CMS Integration** - Content management system integration
 - **Client-side Routing** - React Router for seamless navigation
 - **Responsive Design** - Mobile-first responsive design
 - **Testing** - Vitest testing framework setup
+- **Vercel Ready** - Pre-configured for free-tier Vercel deployment
 - **Development Tools** - ESLint, TypeScript checking, and more
 
 ## 🛠️ Tech Stack
 
 - **Framework**: Astro 5.8.0
-- **Frontend**: React 18.3.0
+- **Frontend**: React 18.3.1
 - **Styling**: Tailwind CSS 3.4.14
 - **Language**: TypeScript 5.8.3
 - **UI Components**: Radix UI
 - **State Management**: Zustand
-- **Forms**: React Hook Form with Zod validation
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
 - **Testing**: Vitest
-- **Build Tool**: Vite
-- **Deployment**: Cloudflare
+- **Build Tool**: Vite 5.2.0
+- **Deployment**: Vercel (Free Tier)
 
 
 ## 🚀 Getting Started
@@ -37,26 +36,31 @@ A modern, full-featured Wix Astro template built with React, TypeScript, and Tai
 
 - Node.js (version 18 or higher)
 - npm or yarn package manager
-- Wix account and site
 
 ### Installation
 
 1. **Install dependencies**:
    ```bash
-   npm run install-template
+   npm install
    ```
 
-2. **Set up environment variables**:
-   ```bash
-   npm run env
-   ```
-
-3. **Start development server**:
+2. **Start development server**:
    ```bash
    npm run dev
    ```
 
-The development server will start and you can view your site at `http://localhost:4321`.
+The development server will start and you can view your site at `http://localhost:3000`.
+
+## 🚀 Deploy to Vercel
+
+This project is ready to deploy on Vercel's free tier!
+
+```bash
+npm install -g vercel
+vercel
+```
+
+See [VERCEL_DEPLOYMENT.md](./VERCEL_DEPLOYMENT.md) for detailed instructions.
 
 ## 📁 Project Structure
 
@@ -71,10 +75,12 @@ main/
 │   ├── lib/                # Utility functions
 │   ├── pages/              # Astro pages
 │   └── styles/             # Global styles
-├── integrations/           # Wix integrations
-│   ├── cms/               # CMS integration
-│   └── members/           # Member authentication
+├── integrations/           # Integration services
+│   ├── cms/               # Data service (replace with your backend)
+│   └── members/           # Auth service (replace with your auth provider)
 ├── public/                # Static assets
+├── vercel.json           # Vercel configuration
+└── VERCEL_DEPLOYMENT.md  # Vercel deployment guide
 └── eslint-rules/          # Custom ESLint rules
 ```
 

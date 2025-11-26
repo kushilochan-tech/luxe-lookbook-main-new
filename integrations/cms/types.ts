@@ -1,4 +1,2 @@
-import { items } from "@wix/data";
-
-export type WixDataItem = items.WixDataItem;
-export type WixDataQueryResult = items.WixDataResult;
+// Export types from service since we're not using Wix SDK
+export { WixDataItem, WixDataResult } from './service';
