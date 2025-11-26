@@ -30,7 +30,6 @@ export default defineConfig({
                 const framewireModule = await import(url);
                 globalThis.framewire = framewireModule;
                 framewireModule.init({}, import.meta.hot);
-                console.log('Framewire initialized');
               }`
             );
           }

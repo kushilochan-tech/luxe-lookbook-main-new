@@ -28,11 +28,11 @@ export default {
                 foreground: '#FFFFFF',
                 destructive: '#DF3131',
                 destructiveforeground: '#ffffff',
-                background: '#F5F5F5',
-                secondary: '#E8E8E8',
-                'secondary-foreground': '#1A1A1A',
-                'primary-foreground': '#1A1A1A',
-                primary: '#F5F5F5'
+                background: '#0f0f0f',
+                secondary: '#1a1a1a',
+                'secondary-foreground': '#FFFFFF',
+                'primary-foreground': '#FFFFFF',
+                primary: '#0f0f0f'
             },
         },
     },

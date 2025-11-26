@@ -10,8 +10,8 @@ export default function ErrorPage() {
   }, [error]);
 
   return (
-    <div className="w-full h-full bg-white flex items-center justify-center gap">
+    <div className="w-full h-full bg-white flex items-center justify-center">
       <div dangerouslySetInnerHTML={{ __html: ErrorOverlay.getOverlayHTML() }} />
     </div>
   );
-};
+}
