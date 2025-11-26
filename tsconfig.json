@@ -24,7 +24,7 @@
         "src/components/*"
       ],
       "@/integrations/*": [
-        "integrations/*",
+        "integrations/*"
       ],
       "@/integrations": [
         "integrations"
@@ -44,3 +44,4 @@
     ".astro",
     "eslint.config.ts"
   ]
+}
