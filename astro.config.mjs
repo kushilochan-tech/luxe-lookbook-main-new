@@ -19,6 +19,7 @@ export default defineConfig({
   },
   adapter: vercel({
     webAnalytics: { enabled: true },
+    nodeVersion: "20.x",
   }),
   devToolbar: {
     enabled: false,
