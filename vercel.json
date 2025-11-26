@@ -1,10 +1,5 @@
 {
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
-  "outputDirectory": ".astro/output/client",
-  "functions": {
-    "_render.func": {
-      "runtime": "nodejs20.x"
-    }
-  }
+  "outputDirectory": ".astro/output/client"
 }

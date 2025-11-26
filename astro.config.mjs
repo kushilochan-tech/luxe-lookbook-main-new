@@ -19,7 +19,9 @@ export default defineConfig({
   },
   adapter: vercel({
     webAnalytics: { enabled: true },
-    nodeVersion: "20.x",
+    isr: {
+      bypassToken: process.env.VERCEL_AUTOMATION_BYPASS_TOKEN,
+    },
   }),
   devToolbar: {
     enabled: false,
