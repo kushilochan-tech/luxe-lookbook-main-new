@@ -31,11 +31,16 @@
       ],
       "@wix/codegen-framework-packages": [
         "integrations"
-      ],
+      ]
     }
   },
   "include": [
     "src",
     "integrations"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    ".astro",
+    "eslint.config.ts"
   ]
-}
